@@ -30,7 +30,7 @@ Once it was running, I gave it the treatment it deserves on a modern phone:
 
 ## Bring your save (#5)
 
-You can import your own `SaveGame.bin`: tap **REVIVED by RedMemories** in the main menu → **Import**, and pick the file (pick `CheckPoint.bin` too, if you have it, to continue mid-mission). The game checks the file first and makes a backup of your current save in `Download/ModernCombat3Revived/Saves`. **Export** copies your save there, so you can move it to another phone or to the PC.
+You can import your own `SaveGame.bin`: tap **REVIVED by RedMemories** in the main menu → **Import**, and pick the file (pick `CheckPoint.bin` too, if you have it, to continue mid-mission; you can also import a `CheckPoint.bin` on its own later). Saves from older versions of the game work too, including player names longer than the game allows (they are cut to 15 characters). The game checks the file first and makes a backup of your current save in `Download/ModernCombat3Revived/Saves`. **Export** copies your save there, so you can move it to another phone or to the PC.
 
 Your progress stays yours: credits, rank and unlocks are the ones in your save, nothing is unlocked for you.
 
