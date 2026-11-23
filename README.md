@@ -1,8 +1,8 @@
 # Modern Combat 3 Revived
 
-Progress: **50%**
+Progress: **79%**
 
-`█████░░░░░`
+`████████░░`
 
 [![Title screen](screenshots/title.png)](screenshots/title.png)
 
@@ -18,22 +18,36 @@ Anyway, I'm making the game fully playable, and hopefully bug-free from the star
 
 - **Native 64-bit: done.** The whole engine is converted to native 64-bit code: 28,964 of its 28,968 functions. It runs on today's 64-bit-only phones as a modern app.
 - **The campaign is playable** on my test phone: title screen, menus, mission briefings with their videos and subtitles, and Mission 1 with shooting, moving and the story scenes, at 120 fps.
+- **HD textures: done.** The iOS version had 900+ textures at double resolution. They're now in the Android game: faces, uniforms, weapons and buildings are much sharper.
+- **Best graphics on every phone:** the game always uses its highest graphics profile, with 32-bit color, 16x anisotropic filtering and 4x antialiasing.
+- **Controller support: done.** It works in menus and in game, with the touch controls hidden while you play with the controller. Tested with an Xbox layout; PlayStation and Switch controllers use the same button positions.
+- **Gyroscope aiming: done**, with calibration and sensitivity in the game options.
+- Touch controls work right up to the screen edges, without triggering Android's back gesture.
+- I checked all of the game's shaders against a strict graphics driver, the kind non-Snapdragon phones use, and fixed the one that would have broken there.
 - Native resolution and full screen, edge to edge.
 - Music, voices and sound effects work.
 - Saves work: "Continue" brings you back where you left off.
 
-[![Main menu](screenshots/main-menu.png)](screenshots/main-menu.png)
+### HD textures, before and after
 
-[![Mission 1](screenshots/mission-1.png)](screenshots/mission-1.png)
+Top: the original Android textures. Bottom: the new HD ones.
+
+[![HD textures, before and after](screenshots/hd-textures-before-after.png)](screenshots/hd-textures-before-after.png)
+
+### Screenshots
+
+[![Main menu](screenshots/main-menu.png)](screenshots/main-menu.png)
 
 [![Helicopter](screenshots/helicopter.png)](screenshots/helicopter.png)
 
 [![Rooftop](screenshots/rooftop.png)](screenshots/rooftop.png)
 
+[![Mission 1](screenshots/mission-1.png)](screenshots/mission-1.png)
+
 ## What's next
 
-- Best graphics on every phone, not only Snapdragon. Antialiasing will be on by default, and you'll be able to turn it off by long-pressing the game icon and opening **Settings**, like in MC4.
-- HD textures: the iOS version has 900+ textures at double resolution, and I'm bringing them in.
-- Controller and gyroscope support.
+- Crash reports and a "Save report" shortcut, like in MC4, so problems on your phone can be fixed quickly.
+- Settings, by long-pressing the game icon: quality, fps limit, and an **Antialiasing** on/off switch for phones that have issues with it.
 - Fully offline, with the buttons to dead Gameloft services hidden.
+- Final APK, then the release.
 - Multiplayer comes later, in a separate update.
