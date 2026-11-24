@@ -22,6 +22,7 @@ Once it was running, I gave it the treatment it deserves on a modern phone:
 - **Gyroscope aiming**, with calibration and sensitivity in the game options.
 - **Touch controls that work on tall screens**: swiping from the edges to aim no longer triggers Android's back gesture.
 - **A crash that closed the game** after going back to the menu from a mission a few times is fixed. It was a bug in the original 2011 engine.
+- **The Gameloft logo at startup**, as in the original APK, while the game loads.
 - **Settings**: long-press the game icon → **Settings**: graphics quality, frame rate limit (max, 90 or 60) and an **Anti-aliasing** on/off switch for phones that have trouble with it.
 
 [![HD textures, before and after](screenshots/hd-textures-before-after.png)](screenshots/hd-textures-before-after.png)
@@ -30,7 +31,7 @@ Once it was running, I gave it the treatment it deserves on a modern phone:
 
 ## Bring your save (#5)
 
-You can import your own `SaveGame.bin`: tap **REVIVED by RedMemories** in the main menu → **Import**, and pick the file (pick `CheckPoint.bin` too, if you have it, to continue mid-mission; you can also import a `CheckPoint.bin` on its own later). Saves from older versions of the game work too, including player names longer than the game allows (they are cut to 15 characters). The game checks the file first and makes a backup of your current save in `Download/ModernCombat3Revived/Saves`. **Export** copies your save there, so you can move it to another phone or to the PC.
+You can import your own `SaveGame.bin`: tap **REVIVED by RedMemories** in the main menu → **Import**, and pick the file (pick `CheckPoint.bin` too, if you have it, to continue mid-mission; you can also import a `CheckPoint.bin` on its own later). Saves from older versions of the game work too: saves from the 1.1.2 APK are converted automatically, with your name, rank and credits (the original file is kept next to it as `SaveGame.bin.1-1-2`), and player names longer than the game allows are cut to 15 characters. The game checks the file first and makes a backup of your current save in `Download/ModernCombat3Revived/Saves`. **Export** copies your save there, so you can move it to another phone or to the PC.
 
 Your progress stays yours: credits, rank and unlocks are the ones in your save, nothing is unlocked for you.
 
@@ -59,7 +60,7 @@ Requirements: 64-bit Android phone with **Android 10 or newer**, about **4 GB** 
 1. Download `ModernCombat3Revived-PC.zip` from **Releases** and extract it
 2. Double-click `ModernCombat3Revived.exe`
 
-Nothing else to install. It needs a graphics card with Direct3D 11. Keyboard and mouse (WASD, mouse to aim, left click fire, right click aim, R reload, G grenade, Shift sprint, Esc pause) or a controller. All the controls and options are in `README.txt` inside the zip.
+Nothing else to install. It needs a graphics card with Direct3D 11. Keyboard and mouse (WASD, mouse to aim, left click fire, right click aim, R reload, G grenade, Shift sprint, Esc pause) or a controller. During cutscenes the mouse works as a finger: click and drag for the on-screen actions, like sliding down the rope in the first mission. All the controls and options are in `README.txt` inside the zip.
 
 Your PC save is in the `save\app` folder: click **REVIVED by RedMemories** in the main menu to open it. Phone and PC saves are the same file, so you can move your progress between them.
 
